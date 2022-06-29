@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{casts}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="text-area"><uni-card vue-id="{{'8dd740cc-1-'+index}}" bind:__l="__l" vue-slots="{{['default']}}"><text>{{item.dayweather}}</text></uni-card></view></block></view>
